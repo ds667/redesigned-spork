@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate Quote Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Inspirational Quotes</h1>
+        <div class="quote-box">
+            <p id="quote" class="quote-text">Click the button to generate a quote!</p>
+            <span id="author">- Unknown</span>
+        </div>
+        <div class="controls">
+            <button onclick="generateQuote()">New Quote</button>
+            <button onclick="speakQuote()">🔊 Speak</button>
+            <button onclick="copyQuote()">📋 Copy</button>
+            <button onclick="downloadQuote()">💾 Save as Image</button>
+            <button onclick="shareOnTwitter()">🐦 Share</button>
+        </div>
+        <div class="theme-switch">
+            <button onclick="changeTheme('theme1')">Theme 1</button>
+            <button onclick="changeTheme('theme2')">Theme 2</button>
+            <button onclick="changeTheme('theme3')">Theme 3</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
